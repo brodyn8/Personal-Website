@@ -1,0 +1,61 @@
+body {
+  background: #21252e;
+      box-sizing: border-box;
+      margin: 0;
+      padding: 15px;
+      display: flex;
+      flex-direction: column;
+      max-height: 100vh;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .members-count,
+    .members-list,
+    .messages {
+      border: 1px solid #00a9e2;
+      padding: 15px;
+      margin-bottom: 15px;
+      margin: 10px;
+	    background: #00a9e2;
+	    border-radius: 25px;
+    }
+
+    .messages {
+      flex-shrink: 1;
+      overflow: auto;
+    }
+
+    .message {
+      padding: 5px 0;
+    }
+    .message .member {
+      display: inline-block;
+    }
+
+    .member {
+      padding-right: 10px;
+      position: relative;
+    }
+
+    .message-form {
+      display: flex;
+      flex-shrink: 0;
+    }
+    .message-form__input {
+      color: #21252e;
+      flex-grow: 1;
+      border: 1px solid #00a9e2;
+      padding: 10px 15px;
+      font-size: 16px;
+	    border-radius: 25px;
+	    background: #00a9e2;
+    }
+    .message-form__button {
+      margin: 5px;
+      padding: 10px;
+      border: 1px solid #0078a0;
+      border-radius: 25px;
+      background: #0078a0;
+      color: #21252e;
+      font-family: 'Poppins', sans-serif;
+    }
